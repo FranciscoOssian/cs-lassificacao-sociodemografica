@@ -9,6 +9,8 @@ import { InputNumeros } from '../src/components/InputNumeros';
 import {Page} from '../src/components/Page'
 import {Form} from '../src/components/Form'
 
+import { useState } from 'react';
+
 export default function Home() {
 
   const [classe, setClasse] = useState('')
